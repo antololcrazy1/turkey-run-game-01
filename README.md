@@ -1,5 +1,11 @@
 # Gobble Dash: Thanksgiving Escape
 
+[![make.fun · turkey-run-game-01](https://make.fun/badge/turkey-run-game-01.svg)](https://make.fun/bounty/turkey-run-game-01?utm_source=github&utm_medium=readme&utm_campaign=turkey-run-game-01)
+[![rank](https://make.fun/badge/turkey-run-game-01/antololcrazy1/turkey-run-game-01/rank.svg)](https://make.fun/bounty/turkey-run-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=turkey-run-game-01)
+[![reward](https://make.fun/badge/turkey-run-game-01/antololcrazy1/turkey-run-game-01/reward.svg)](https://make.fun/bounty/turkey-run-game-01?utm_source=github&utm_medium=readme&utm_campaign=turkey-run-game-01)
+
+Entry for the make.fun bounty [Make the best turkey escape game](https://make.fun/bounty/turkey-run-game-01).
+
 A turkey escape game for the make.fun bounty `turkey-run-game-01`.
 
 You are the turkey. The farmer wants you for Thanksgiving dinner — run from the
