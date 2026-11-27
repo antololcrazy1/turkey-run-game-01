@@ -1,0 +1,14 @@
+/* Gobble Dash page chrome: full-viewport canvas, touch pad only on coarse pointers. */
+html, body { margin: 0; height: 100%; overflow: hidden; background: #2b1608; }
+#wrap { position: fixed; inset: 0; }
+#game { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
+#status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+#touch { display: none; }
+@media (pointer: coarse) {
+  #touch { display: flex; justify-content: space-between; align-items: flex-end; position: absolute; inset: auto 0 0 0; padding: 12px; pointer-events: none; }
+  #touch button { pointer-events: auto; width: 56px; height: 56px; border-radius: 50%; border: 2px solid rgba(255,255,255,.7); background: rgba(43,22,8,.55); color: #fff; font-size: 20px; }
+  #touch .pad { display: grid; grid-template-columns: 56px 56px 56px; grid-template-rows: 56px 56px; gap: 6px; }
+  #btn-up { grid-column: 2; } #btn-left { grid-column: 1; grid-row: 2; }
+  #btn-down { grid-column: 2; grid-row: 2; } #btn-right { grid-column: 3; grid-row: 2; }
+  #btn-dash { width: 76px; height: 76px; font-size: 15px; font-weight: 700; }
+}

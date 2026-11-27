@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Gobble Dash: Thanksgiving Escape</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main id="wrap">
+  <canvas id="game" width="1280" height="720" aria-label="Gobble Dash: steer the turkey with arrow keys or WASD, dash with Space, collect corn, dodge the farmer, his carving knives and the kitchen oven, and reach the escape gate"></canvas>
+  <div id="touch" aria-hidden="true">
+    <div class="pad">
+      <button id="btn-up" type="button">▲</button>
+      <button id="btn-left" type="button">◀</button>
+      <button id="btn-down" type="button">▼</button>
+      <button id="btn-right" type="button">▶</button>
+    </div>
+    <button id="btn-dash" type="button">DASH</button>
+  </div>
+  <p id="status" role="status" aria-live="polite"></p>
+</main>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
